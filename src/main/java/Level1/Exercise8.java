@@ -1,9 +1,6 @@
 package Level1;
 
-@FunctionalInterface
-interface ReverseInterface {
-    String reverse(String str);
-}
+import Level1.interfaces.ReverseInterface;
 
 public class Exercise8 {
     public static void main(String[] args) {

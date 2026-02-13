@@ -1,9 +1,6 @@
 package Level1;
 
-@FunctionalInterface
-interface PiInterface {
-    double getPiValue();
-}
+import Level1.interfaces.PiInterface;
 
 public class Exercise5 {
     public static void main(String[] args) {

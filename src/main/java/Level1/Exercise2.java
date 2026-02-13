@@ -17,8 +17,7 @@ public class Exercise2 {
 
     public static List<String> filterWordsWithOAndLongerThanFive(List<String> input) {
         return input.stream()
-                .filter(s -> s.toLowerCase().contains("o"))
-                .filter(s -> s.length() > 5)
+                .filter(s -> s.toLowerCase().contains("o") && s.length() > 5)
                 .collect(Collectors.toList());
     }
 }
